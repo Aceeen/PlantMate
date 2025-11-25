@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ganti parent ke DayNight agar support dark mode otomatis, atau tetap Light jika ingin terang terus -->
+    <style name="Theme.FloraMate" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary Brand Color -->
+        <item name="colorPrimary">#A3B18A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Primary Container (Pengganti PrimaryVariant di Material 3) -->
+        <!-- Biasanya warna ini lebih muda dari Primary, digunakan untuk background tombol/card -->
+        <item name="colorPrimaryContainer">#588157</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <!-- Secondary Brand Color -->
+        <item name="colorSecondary">#FF6F61</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Secondary Container (Pengganti SecondaryVariant) -->
+        <item name="colorSecondaryContainer">#8C1D18</item>
+        <item name="colorOnSecondaryContainer">#FFFFFF</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">#F9F9F9</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#3A3A3A</item>
+    </style>
+</resources>

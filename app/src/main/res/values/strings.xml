@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FloraMate</string>
+    <string name="home_welcome">Welcome to</string>
+    <string name="home_app_name">FLORAMATE</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_garden">My Garden</string>
+    <string name="nav_identify">Identify</string>
+    <string name="nav_light_meter">Light Meter</string>
+    <string name="nav_profile">Profile</string>
+</resources>
